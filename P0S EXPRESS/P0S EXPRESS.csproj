@@ -57,10 +57,10 @@
     <Compile Include="FORMS\AperturaCaja.Designer.cs">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Compras.cs">
+    <Compile Include="FORMS\Compras\Compras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Compras.Designer.cs">
+    <Compile Include="FORMS\Compras\Compras.Designer.cs">
       <DependentUpon>Compras.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\INICIO.cs">
@@ -81,6 +81,12 @@
     </Compile>
     <Compile Include="FORMS\MENU2.Designer.cs">
       <DependentUpon>MENU2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Productos\EditarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Productos\EditarProducto.Designer.cs">
+      <DependentUpon>EditarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\Productos\Nuevo Producto.cs">
       <SubType>Form</SubType>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\MENU2.resx">
       <DependentUpon>MENU2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Productos\EditarProducto.resx">
+      <DependentUpon>EditarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Productos\Nuevo Producto.resx">
       <DependentUpon>Nuevo Producto.cs</DependentUpon>

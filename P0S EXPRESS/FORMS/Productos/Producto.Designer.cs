@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Producto));
             this.TxtProducto = new System.Windows.Forms.TextBox();
             this.Buscar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Atras = new System.Windows.Forms.PictureBox();
             this.Editar = new System.Windows.Forms.PictureBox();
             this.Agregar = new System.Windows.Forms.PictureBox();
-            this.Atras = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Atras)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Editar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Agregar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Atras)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtProducto
@@ -65,6 +66,17 @@
             this.dataGridView1.Size = new System.Drawing.Size(701, 310);
             this.dataGridView1.TabIndex = 2;
             // 
+            // Atras
+            // 
+            this.Atras.Image = global::P0S_EXPRESS.Properties.Resources.hacia_atras;
+            this.Atras.Location = new System.Drawing.Point(746, 410);
+            this.Atras.Name = "Atras";
+            this.Atras.Size = new System.Drawing.Size(42, 28);
+            this.Atras.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Atras.TabIndex = 27;
+            this.Atras.TabStop = false;
+            this.Atras.Click += new System.EventHandler(this.Atras_Click);
+            // 
             // Editar
             // 
             this.Editar.Image = global::P0S_EXPRESS.Properties.Resources.boton_editar;
@@ -74,6 +86,7 @@
             this.Editar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Editar.TabIndex = 4;
             this.Editar.TabStop = false;
+            this.Editar.Click += new System.EventHandler(this.Editar_Click);
             // 
             // Agregar
             // 
@@ -86,17 +99,6 @@
             this.Agregar.TabStop = false;
             this.Agregar.Click += new System.EventHandler(this.Agregar_Click);
             // 
-            // Atras
-            // 
-            this.Atras.Image = global::P0S_EXPRESS.Properties.Resources.hacia_atras;
-            this.Atras.Location = new System.Drawing.Point(746, 410);
-            this.Atras.Name = "Atras";
-            this.Atras.Size = new System.Drawing.Size(42, 28);
-            this.Atras.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Atras.TabIndex = 27;
-            this.Atras.TabStop = false;
-            this.Atras.Click += new System.EventHandler(this.Atras_Click);
-            // 
             // Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -108,12 +110,13 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Buscar);
             this.Controls.Add(this.TxtProducto);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Producto";
             this.Text = "Producto";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Atras)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Editar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Agregar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Atras)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

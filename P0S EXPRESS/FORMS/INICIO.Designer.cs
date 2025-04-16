@@ -50,14 +50,14 @@
             // 
             // USER
             // 
-            this.USER.Location = new System.Drawing.Point(59, 130);
+            this.USER.Location = new System.Drawing.Point(55, 172);
             this.USER.Name = "USER";
             this.USER.Size = new System.Drawing.Size(203, 20);
             this.USER.TabIndex = 1;
             // 
             // PW
             // 
-            this.PW.Location = new System.Drawing.Point(59, 215);
+            this.PW.Location = new System.Drawing.Point(55, 252);
             this.PW.Name = "PW";
             this.PW.Size = new System.Drawing.Size(203, 20);
             this.PW.TabIndex = 2;
@@ -65,7 +65,7 @@
             // USUARIO
             // 
             this.USUARIO.AutoSize = true;
-            this.USUARIO.Location = new System.Drawing.Point(128, 114);
+            this.USUARIO.Location = new System.Drawing.Point(124, 156);
             this.USUARIO.Name = "USUARIO";
             this.USUARIO.Size = new System.Drawing.Size(56, 13);
             this.USUARIO.TabIndex = 3;
@@ -74,7 +74,7 @@
             // CONTRASEÑA
             // 
             this.CONTRASEÑA.AutoSize = true;
-            this.CONTRASEÑA.Location = new System.Drawing.Point(119, 199);
+            this.CONTRASEÑA.Location = new System.Drawing.Point(115, 236);
             this.CONTRASEÑA.Name = "CONTRASEÑA";
             this.CONTRASEÑA.Size = new System.Drawing.Size(81, 13);
             this.CONTRASEÑA.TabIndex = 4;
@@ -83,7 +83,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::P0S_EXPRESS.Properties.Resources.Logotipo_de_Empresa_Tecnológica_Moderno_Azul_y_Verde__315_x_315_px___2_1;
-            this.pictureBox1.Location = new System.Drawing.Point(62, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(63, 51);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(186, 102);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

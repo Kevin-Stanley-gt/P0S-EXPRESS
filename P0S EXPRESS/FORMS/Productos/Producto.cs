@@ -1,4 +1,5 @@
 ﻿using P0S_EXPRESS.FORMS.Productos;
+using P0S_EXPRESS.FORMS.Proveedores;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -59,6 +60,32 @@ namespace P0S_EXPRESS.FORMS
         {
             this.Hide();
             new MENU1().Show();
+        }
+
+        private void Editar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["ID"].Value);
+                int Proveedor_Id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Proveedor_Id"].Value);
+                string Proveedor = dataGridView1.SelectedRows[0].Cells["Proveedor"].Value.ToString();
+                string Nombre = dataGridView1.SelectedRows[0].Cells["Nombre"].Value.ToString();
+                string Descripcion = dataGridView1.SelectedRows[0].Cells["Descripcion"].Value.ToString();
+                string Costo = dataGridView1.SelectedRows[0].Cells["Costo"].Value.ToString();
+                var Activo = Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells["Activo"].Value) ;
+                EditarProducto frmeditar = new EditarProducto (id, Proveedor_Id, Proveedor, Nombre, Descripcion, Costo, Activo);
+                frmeditar.Show();
+                this.Hide();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Seleccionar un Producto de la lista");
+            }
+
+
         }
     }
 }

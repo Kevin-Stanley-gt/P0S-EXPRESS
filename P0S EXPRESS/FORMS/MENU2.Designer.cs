@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MENU2));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.NIT = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -133,6 +134,7 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.NIT);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MENU2";
             this.Text = "VENTA";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

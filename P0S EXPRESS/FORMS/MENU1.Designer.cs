@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MENU1));
             this.PRODUCTO = new System.Windows.Forms.Label();
             this.PROVEEDORES = new System.Windows.Forms.Label();
             this.TIPOCLIENTE = new System.Windows.Forms.Label();
@@ -192,6 +193,7 @@
             this.Controls.Add(this.TIPOCLIENTE);
             this.Controls.Add(this.PROVEEDORES);
             this.Controls.Add(this.PRODUCTO);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MENU1";
             this.Text = "ADMINISTRACION";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
