@@ -130,11 +130,23 @@
     <Compile Include="FORMS\Tipo Clientes\TipoClientes.Designer.cs">
       <DependentUpon>TipoClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Usuarios\Usuarios.cs">
+    <Compile Include="FORMS\Usuarios\EditarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Usuarios\Usuarios.Designer.cs">
-      <DependentUpon>Usuarios.cs</DependentUpon>
+    <Compile Include="FORMS\Usuarios\EditarUsuario.Designer.cs">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Usuarios\NuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Usuarios\NuevoUsuario.Designer.cs">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Usuarios\Usuarioss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Usuarios\Usuarioss.Designer.cs">
+      <DependentUpon>Usuarioss.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -167,6 +179,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Proveedores Forms\Proveedoress.resx">
       <DependentUpon>Proveedoress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Usuarios\EditarUsuario.resx">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Usuarios\NuevoUsuario.resx">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Usuarios\Usuarioss.resx">
+      <DependentUpon>Usuarioss.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace P0S_EXPRESS.FORMS
+namespace P0S_EXPRESS.FORMS.Usuarios
 {
-    public partial class Usuarios : Form
+    public partial class UserNew : Form
     {
-        public Usuarios()
+        public UserNew()
         {
             InitializeComponent();
+        }
+
+        private void Atras_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
