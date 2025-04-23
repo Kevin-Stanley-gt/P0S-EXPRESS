@@ -59,8 +59,10 @@
             // 
             this.PW.Location = new System.Drawing.Point(55, 252);
             this.PW.Name = "PW";
+            this.PW.PasswordChar = '*';
             this.PW.Size = new System.Drawing.Size(203, 20);
             this.PW.TabIndex = 2;
+            this.PW.TextChanged += new System.EventHandler(this.PW_TextChanged);
             // 
             // USUARIO
             // 
@@ -79,6 +81,7 @@
             this.CONTRASEÑA.Size = new System.Drawing.Size(81, 13);
             this.CONTRASEÑA.TabIndex = 4;
             this.CONTRASEÑA.Text = "CONTRASEÑA";
+            this.CONTRASEÑA.Click += new System.EventHandler(this.CONTRASEÑA_Click);
             // 
             // pictureBox1
             // 

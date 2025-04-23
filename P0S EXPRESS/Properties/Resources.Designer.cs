@@ -133,6 +133,16 @@ namespace P0S_EXPRESS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap llave_con_forma_de_casa_colgante {
+            get {
+                object obj = ResourceManager.GetObject("llave-con-forma-de-casa-colgante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logotipo_de_Empresa_Tecnológica_Moderno_Azul_y_Verde__315_x_315_px___2_ {
             get {
                 object obj = ResourceManager.GetObject("Logotipo de Empresa Tecnológica Moderno Azul y Verde (315 x 315 px) (2)", resourceCulture);

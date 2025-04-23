@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuarioss));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Buscar = new System.Windows.Forms.Button();
             this.txtusuario = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Atras = new System.Windows.Forms.PictureBox();
             this.Editar = new System.Windows.Forms.PictureBox();
             this.Agregar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Atras)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Editar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Agregar)).BeginInit();
@@ -69,6 +72,19 @@
             this.txtusuario.Size = new System.Drawing.Size(560, 20);
             this.txtusuario.TabIndex = 27;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.AccessibleDescription = "Editar";
+            this.pictureBox1.AccessibleName = "Editar";
+            this.pictureBox1.Image = global::P0S_EXPRESS.Properties.Resources.llave_con_forma_de_casa_colgante;
+            this.pictureBox1.Location = new System.Drawing.Point(136, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 22);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Atras
             // 
             this.Atras.Image = global::P0S_EXPRESS.Properties.Resources.hacia_atras;
@@ -91,6 +107,7 @@
             this.Editar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Editar.TabIndex = 31;
             this.Editar.TabStop = false;
+            this.Editar.Click += new System.EventHandler(this.Editar_Click);
             // 
             // Agregar
             // 
@@ -105,22 +122,25 @@
             this.Agregar.TabStop = false;
             this.Agregar.Click += new System.EventHandler(this.Agregar_Click);
             // 
-            // Usuarios
+            // Usuarioss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Atras);
             this.Controls.Add(this.Editar);
             this.Controls.Add(this.Agregar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Buscar);
             this.Controls.Add(this.txtusuario);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
-            this.Name = "Usuarios";
+            this.Name = "Usuarioss";
             this.Text = "Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Atras)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Editar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Agregar)).EndInit();
@@ -137,5 +157,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button Buscar;
         private System.Windows.Forms.TextBox txtusuario;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

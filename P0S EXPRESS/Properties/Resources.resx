@@ -127,11 +127,14 @@
   <data name="boton-editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton-editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="busqueda-de-talentos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busqueda-de-talentos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hacia-atras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hacia-atras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trabajo-en-equipo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trabajo-en-equipo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logotipo de Empresa Tecnológica Moderno Azul y Verde (315 x 315 px) (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logotipo de Empresa Tecnológica Moderno Azul y Verde (315 x 315 px) (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cadena-de-suministro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadena-de-suministro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +148,10 @@
   <data name="boton-mas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton-mas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="busqueda-de-talentos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busqueda-de-talentos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trabajo-en-equipo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajo-en-equipo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logotipo de Empresa Tecnológica Moderno Azul y Verde (315 x 315 px) (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logotipo de Empresa Tecnológica Moderno Azul y Verde (315 x 315 px) (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="llave-con-forma-de-casa-colgante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llave-con-forma-de-casa-colgante.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

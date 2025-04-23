@@ -130,6 +130,12 @@
     <Compile Include="FORMS\Tipo Clientes\TipoClientes.Designer.cs">
       <DependentUpon>TipoClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\Usuarios\Editarpw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Usuarios\Editarpw.Designer.cs">
+      <DependentUpon>Editarpw.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Usuarios\EditarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Proveedores Forms\Proveedoress.resx">
       <DependentUpon>Proveedoress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Usuarios\Editarpw.resx">
+      <DependentUpon>Editarpw.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Usuarios\EditarUsuario.resx">
       <DependentUpon>EditarUsuario.cs</DependentUpon>
@@ -244,6 +253,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logotipo de Empresa Tecnológica Moderno Azul y Verde %28315 x 315 px%29 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llave-con-forma-de-casa-colgante.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

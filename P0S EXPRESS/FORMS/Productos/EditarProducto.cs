@@ -19,6 +19,8 @@ namespace P0S_EXPRESS.FORMS.Productos
         {
             InitializeComponent();
         }
+
+
         public EditarProducto(int id, int Proveedor_Id, string Proveedor, string Nombre, string Descripcion,string Costo, bool Activo)
         {
             InitializeComponent();
@@ -31,7 +33,6 @@ namespace P0S_EXPRESS.FORMS.Productos
             checkBox1.Checked = Activo;
             this.Load += new EventHandler(Editar_Producto_Load);
             TxtProvee.Text = Proveedor;
-
         }
 
         public class Moneda

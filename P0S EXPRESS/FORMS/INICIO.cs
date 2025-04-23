@@ -95,6 +95,16 @@ namespace P0S_EXPRESS.FORMS
                 return sha.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
+
+        private void PW_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CONTRASEÑA_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
