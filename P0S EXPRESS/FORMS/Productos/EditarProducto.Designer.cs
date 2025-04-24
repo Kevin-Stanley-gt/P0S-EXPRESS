@@ -130,6 +130,7 @@
             this.TxtProvee.Name = "TxtProvee";
             this.TxtProvee.Size = new System.Drawing.Size(250, 21);
             this.TxtProvee.TabIndex = 29;
+            this.TxtProvee.SelectedIndexChanged += new System.EventHandler(this.TxtProvee_SelectedIndexChanged);
             // 
             // txtdescripcion
             // 

@@ -144,5 +144,10 @@ namespace P0S_EXPRESS.FORMS.Productos
 
             }
         }
+
+        private void TxtProvee_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

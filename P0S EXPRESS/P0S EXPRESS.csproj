@@ -159,6 +159,9 @@
     <EmbeddedResource Include="FORMS\AperturaCaja.resx">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Compras\Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\INICIO.resx">
       <DependentUpon>INICIO.cs</DependentUpon>
     </EmbeddedResource>
