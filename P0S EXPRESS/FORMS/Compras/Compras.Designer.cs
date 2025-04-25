@@ -1,6 +1,6 @@
 ﻿namespace P0S_EXPRESS.FORMS
 {
-    partial class Compras
+    partial class Compra
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Compra));
             this.txtnumero = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,8 +46,10 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Atras = new System.Windows.Forms.PictureBox();
             this.txteliminar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Atras)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtnumero
@@ -201,11 +204,22 @@
             this.txteliminar.UseVisualStyleBackColor = true;
             this.txteliminar.Click += new System.EventHandler(this.txteliminar_Click);
             // 
-            // Compras
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::P0S_EXPRESS.Properties.Resources.Logotipo_de_Empresa_Tecnológica_Moderno_Azul_y_Verde__315_x_315_px___2_;
+            this.pictureBox1.Location = new System.Drawing.Point(602, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(165, 77);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 39;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Compra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txteliminar);
             this.Controls.Add(this.Atras);
             this.Controls.Add(this.label3);
@@ -223,10 +237,12 @@
             this.Controls.Add(this.txtserie);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtnumero);
-            this.Name = "Compras";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Compra";
             this.Text = "Compras";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Atras)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,5 +267,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.PictureBox Atras;
         private System.Windows.Forms.Button txteliminar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -37,7 +37,7 @@ namespace P0S_EXPRESS.FORMS
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Compras().Show();
+            new Compra().Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

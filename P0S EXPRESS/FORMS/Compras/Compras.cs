@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace P0S_EXPRESS.FORMS
 {
-    public partial class Compras : Form
+    public partial class Compra : Form
     {
-        public Compras()
+        public Compra()
         {
             InitializeComponent();
 

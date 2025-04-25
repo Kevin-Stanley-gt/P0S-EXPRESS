@@ -57,6 +57,12 @@
     <Compile Include="FORMS\AperturaCaja.Designer.cs">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\Compras\ClienteNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Compras\ClienteNuevo.Designer.cs">
+      <DependentUpon>ClienteNuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Compras\Compras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     <EmbeddedResource Include="FORMS\AperturaCaja.resx">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Compras\ClienteNuevo.resx">
+      <DependentUpon>ClienteNuevo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Compras\Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
     </EmbeddedResource>
@@ -259,6 +268,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\llave-con-forma-de-casa-colgante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FORMS\Ventas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
